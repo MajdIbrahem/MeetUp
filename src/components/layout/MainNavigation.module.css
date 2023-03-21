@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header {
+  @apply w-full h-20 flex justify-between items-center bg-green-500 px-4;
+}
+
+.logo {
+  @apply text-white font-bold text-2xl ml-2;
+}
+
+.header ul {
+  @apply flex items-baseline;
+}
+
+.header li {
+  @apply ml-5;
+}
+
+.header a {
+  @apply no-underline text-lg hover:text-white active:text-white;
+}
